@@ -66,20 +66,19 @@ else:
 # Ordrekvens
 sentence =input("Skriv in en mening: ")
 word_list = sentence.split()
-word_frecvency = {}
+word_freqvency = {}
 
 for word in word_list:
-    if word in word_frecvency:
-        word_frecvency[word] +=1
+    if word in word_freqvency:
+        word_freqvency[word] +=1
     else:
-        word_frecvency[word] = 1
+        word_freqvency[word] = 1
 
 print ("Ord och antal förekomster: ")
-for word, frecvency in word_frecvency.items():
-    print(f"{word}: {frecvency}")
+for word, frecvency in word_freqvency.items():
+    print(f"{word}: {word_freqvency}")
     print()
 # Inventarielista
-
         
     
 
